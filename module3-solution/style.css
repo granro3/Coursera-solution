@@ -57,7 +57,11 @@ h2 {
     background-color: aquamarine; 
     position: relative;
 }
-
+.nav-link{
+    text-align: center;
+    font-size: 20px;
+    
+}
 
 /********** Medium devices only **********/
 @media (min-width: 768px) {
@@ -65,7 +69,11 @@ h2 {
         float: left;
         font-size: 105%;
         width:33.33%;
-    }}
+    }
+.navbar-toggler, .nav-link{
+        visibility:collapse;  
+    }
+}
 
 /********** Small devices only **********/
 @media (min-width: 480px) and (max-width: 767px){
@@ -81,6 +89,11 @@ h2 {
     .col-sm-12 {
         width: 100%;
     }
+    .navbar-toggler{
+        visibility:collapse;
+        
+    }
+
 }
     
     /********** Super Small devices only **********/
