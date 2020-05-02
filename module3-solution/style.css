@@ -88,11 +88,6 @@ h2 {
     .col-sm-12 {
         width: 100%;
     }
-    .navbar-toggler{
-        visibility:collapse;
-        
-    }
-
 }
     
     /********** Super Small devices only **********/
